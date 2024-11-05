@@ -5,7 +5,7 @@ import tempfile
 # jupyter nbconvert too latex (check gpt)
 
 # Set the path to MiKTeX (adjust if necessary)
-os.environ["PATH"] += r";C:\Users\stefa\AppData\Local\Programs\MiKTeX\miktex\bin\x64"
+os.environ["PATH"] += r"path\to\MikTeX"
 
 # Input and output file paths
 input_file = 'wow_items.ipynb'  # Your Jupyter notebook
